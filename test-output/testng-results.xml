@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94403" started-at="2021-05-22T18:31:02Z" finished-at="2021-05-22T18:32:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94403" started-at="2021-05-22T18:31:02Z" finished-at="2021-05-22T18:32:36Z">
+      <class name="orange.testcases.PIMTabTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:orange.testcases.PIMTabTest@42dafa95]" name="setup" is-config="true" duration-ms="28080" started-at="2021-05-22T18:31:04Z" finished-at="2021-05-22T18:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:orange.testcases.PIMTabTest@42dafa95]" name="addNewEmployee" duration-ms="5803" started-at="2021-05-22T18:31:32Z" data-provider="EmpExcelData" finished-at="2021-05-22T18:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testerF1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testerL1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testerS1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:orange.testcases.PIMTabTest@42dafa95]" name="tearDown" is-config="true" duration-ms="1460" started-at="2021-05-22T18:31:38Z" finished-at="2021-05-22T18:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:orange.testcases.PIMTabTest@42dafa95]" name="setup" is-config="true" duration-ms="26364" started-at="2021-05-22T18:31:40Z" finished-at="2021-05-22T18:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:orange.testcases.PIMTabTest@42dafa95]" name="addNewEmployee" duration-ms="5898" started-at="2021-05-22T18:32:06Z" data-provider="EmpExcelData" finished-at="2021-05-22T18:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testerF2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testerL2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testerS2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:orange.testcases.PIMTabTest@42dafa95]" name="tearDown" is-config="true" duration-ms="1586" started-at="2021-05-22T18:32:12Z" finished-at="2021-05-22T18:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:orange.testcases.PIMTabTest@42dafa95]" name="setup" is-config="true" duration-ms="16484" started-at="2021-05-22T18:32:13Z" finished-at="2021-05-22T18:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:orange.testcases.PIMTabTest@42dafa95]" name="addNewEmployee" duration-ms="5799" started-at="2021-05-22T18:32:30Z" data-provider="EmpExcelData" finished-at="2021-05-22T18:32:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testerF3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testerL3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testerS3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:orange.testcases.PIMTabTest@42dafa95]" name="tearDown" is-config="true" duration-ms="799" started-at="2021-05-22T18:32:36Z" finished-at="2021-05-22T18:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orange.testcases.PIMTabTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

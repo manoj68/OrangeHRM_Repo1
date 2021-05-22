@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Application Automation Test Suit">
+    
+    <listeners>
+	    <listener class-name = "com.ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+    
+    <test name="Free CRM App Test Cases">
+     
+         <classes>
+                  <class name="com.crm.testcases.LoginPageTest"/>
+                  <class name="com.crm.testcases.HomePageTest"/>
+                  <class name="com.crm.testcases.ContactsPageTest"/>
+          </classes>
+          
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- This is also called as test runner file.
+	You can also create multiple testng files as per the execution requirement. Example testng_sanity.xml, testng_regression.xml
+	If you want to skip any Test class from the execution then you can just comment it out.
+ -->
