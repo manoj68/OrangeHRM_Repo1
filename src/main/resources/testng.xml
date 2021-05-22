@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Free CRM Application Automation Test Suit">
+
+<suite name="OrangeHRM_Suit" >	<!--we can use these parameter also## parallel="classes" thread-count="2" -->
     
-    <listeners>
+   <!-- <listeners>
 	    <listener class-name = "com.ExtentReportListener.ExtentReporterNG" />
     </listeners>
+    -->
     
-    <test name="Free CRM App Test Cases">
+    <test name="OorangeHRM_Test">
      
          <classes>
-                  <class name="com.crm.testcases.LoginPageTest"/>
-                  <class name="com.crm.testcases.HomePageTest"/>
-                  <class name="com.crm.testcases.ContactsPageTest"/>
+                  <class name="orange.testcases.LoginPageTest"/>
+                   <class name="orange.testcases.HomePageTest"/>
+                  <class name="orange.testcases.AdminTabPageTest"/>
+                    <class name="orange.testcases.PIMTabTest"/>
           </classes>
           
      </test> <!-- Test -->
